@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 
 
-st.set_page_config(layout='wide')
+st.set_page_config()
 
 #Las dos columnas
 col1, col2 = st.columns(2)
 
 with col1: 
     #image = methos creates image
-    st.image('images/photo.png', width=300)
+    st.image('images/photo.png', width=400)
 
 with col2:
     st.title('Andrés Lozano')
