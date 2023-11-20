@@ -9,7 +9,7 @@ col1, col2 = st.columns(2)
 
 with col1: 
     #image = methos creates image
-    st.image('images/photo.png')
+    st.image('images/photo.png', width=300)
 
 with col2:
     st.title('Andrés Lozano')
